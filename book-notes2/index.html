@@ -1,0 +1,10 @@
+---
+layout: default
+title: Christopher's Posts
+---
+
+<h3 class="category-header"><b>Book Notes2</b></h3>
+{% for post in site.categories.book-notes2 %}
+<span class="post-item">{{ post.date | date: '%Y-%m-%d' }} <a href="{{ post.url }}">{{ post.title }}</a></span>
+{% endfor %}
+
