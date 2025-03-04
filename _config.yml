@@ -1,7 +1,7 @@
 # Site Specific Configuration
-name: LightSpeed
+name: 听松阁
 description: A simple Jekyll theme
-url: https://example.com
+url: https://www.free163.com
 author: tajacks
 timezone: America/Toronto
 timezone_short: ET
@@ -14,7 +14,8 @@ analytics:
   plausible:
     enabled: false
     site_fqdn: 'your.site.fqdn'
-    script_source: 'https://plausible.io/js/script.js'
+    # script_source: 'https://plausible.io/js/script.js'
+    script_source: '#'
 
 # Styling
 sass:
