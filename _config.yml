@@ -1,33 +1,28 @@
 # Site Specific Configuration
-name: 听松阁
-description: A simple Jekyll theme
-url: https://www.free163.com
-author: tajacks
-timezone: America/Toronto
+name: Christopher Junius
+title: Christopher Junius
+description: Christopher Junius' Personal Site
+url: https://cjunius.github.io
+author: cjunius
+timezone: America/New_York
 timezone_short: ET
-
-# Keywords
-keywords: ['seo', 'key', 'words']
-
-# Analytics (Plausible requires sign-up)
-analytics:
-  plausible:
-    enabled: false
-    site_fqdn: 'your.site.fqdn'
-    # script_source: 'https://plausible.io/js/script.js'
-    script_source: '#'
 
 # Styling
 sass:
   sass_dir: _sass
-  style: expanded # compact, expanded or compressed
+  style: expanded # compressed, compact, expanded or compressed
+
+#seo
+keywords: ['quality', 'software testing', 'QA', 'QE', 'SDET']
 
 # Paginate
 pagination:
   enabled: true
-  # Value set low for demonstration purposes
-  per_page: 3
+  collection: 'posts'
+  per_page: 10
+  indexpage: 'index'
   sort_field: 'date'
+  category: 'posts'
   sort_reverse: true
 
 # Category Paginating
@@ -39,11 +34,38 @@ autopages:
     silent: false
 
 # Exclusions
-exclude: [ 'README.md', 'COPYING' ]
+exclude: [ 'README.md', 'COPYING', 'drafts', 'templates' ]
 
 # Plugins
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-seo-tag
+  - jekyll-github-metadata
 
+social_media:
+  # behance: your_username
+  # dribbble: your_username
+  facebook: cjunius
+  hackerrank: cjunius
+  instagram: cjunius
+  # keybase: your_username
+  linkedin: cjunius
+  # mastodon: your_username
+  # medium: your_username
+  # stackoverflow: your_user_id
+  # telegram: your_username
+  twitter: cjunius
+  # unsplash: your_username
+  # vk: your_username
+  # website: http://your_website_url
+  youtube: christopherjunius
+
+about:
+  description: Husband to a remarkable wife. Father to amazing twin daughters. Caretaker to a dog and two cats. Jack of many trades. Quality Engineering expert.
+  interests:
+  - name: Test Automation
+  - name: Chess 
+    link: https://www.chess.com/member/cjunius
+  - name: Astronomy
+  - name: Star Wars Legos

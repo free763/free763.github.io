@@ -1,4 +1,8 @@
 - name: Home
   link: /
-- name: Categories
-  link: /categories/
+- name: Posts
+  link: /posts
+- name: Projects
+  link: /projects
+- name: Tools
+  link: /tools
