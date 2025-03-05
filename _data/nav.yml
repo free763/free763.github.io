@@ -1,8 +1,8 @@
 - name: Home
-  link: https://blog.hhhnn.com/
+  link: /
 - name: Posts
-  link: https://blog.hhhnn.com/posts
+  link: /posts
 - name: Projects
-  link: https://blog.hhhnn.com/projects
+  link: /projects
 #- name: Tools
 #  link: /tools
