@@ -1,8 +1,8 @@
 - name: Home
-  link: https://www.hhhnn.com/
+  link: {{ site.baseurl }}/
 - name: Posts
-  link: https://www.hhhnn.com/posts
+  link: {{ site.baseurl }}/posts
 - name: Projects
-  link: https://www.hhhnn.com/projects
+  link: {{ site.baseurl }}/projects
 #- name: Tools
 #  link: /tools
